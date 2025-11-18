@@ -33,6 +33,8 @@ function startServerWithRetry(port, attemptsLeft = 5) {
     });
 }
 
+
+//
 // app.js is responsible for establishing the mongoose connection.
 // Here we only listen for connection events so we don't call connect() twice.
 mongoose.connection.on('connected', () => {
