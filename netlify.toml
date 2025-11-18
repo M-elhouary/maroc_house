@@ -1,0 +1,12 @@
+[build]
+  # Run the build inside the frontend subdirectory
+  base = "karilik/frontend"
+  # The publish directory is relative to `base`
+  publish = "dist"
+  command = "npm run build"
+
+[[redirects]]
+  # Redirect all routes to index.html so client-side routing works
+  from = "/*"
+  to = "/index.html"
+  status = 200
