@@ -25,8 +25,8 @@ html, body {
   color: var(--color-text);
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
-  /* background image served by backend at /assets/background.png (dev). Uses a subtle overlay and covers viewport */
-  background-image: url("http://localhost:5000/assets/background.png");
+  /* background image served at /assets/background.png in production. Place the image under frontend/public/assets/ or update this URL to your CDN/backend. */
+  background-image: url("/assets/background.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
