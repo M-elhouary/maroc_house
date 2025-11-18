@@ -1,0 +1,31 @@
+{
+  "name": "karilik-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for the Karilik Moroccan rental marketplace platform",
+  "main": "src/main.jsx",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "vite": "^4.4.9",
+    "@vitejs/plugin-react": "^5.1.1",
+    "eslint": "^8.0.0",
+    "eslint-plugin-react": "^7.0.0"
+  },
+  "keywords": [
+    "rental",
+    "marketplace",
+    "Moroccan",
+    "react"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
